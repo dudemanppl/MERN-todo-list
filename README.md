@@ -8,4 +8,5 @@ Fork and then clone this repo. After cloning, go into the directory of the repo 
 Note: If at any time you need to fast forward to the next step, type the command "git checkout $(stepName) -f" in your terminal. e.g. "git checkout step1b -f" and you will be ready to do the next step. 
 
 ## Step 1 Server
-a. Create a basic Express server listening on port 3000.
+a. Create a folder named "server". Create a basic Express server listening on port 3000 in your server folder in an "index.js" file.
+b. Create two files, named "controller.js" and "router.js". Fill out basic functionality for all CRUD routes, sending back a response with the name of each request method.
