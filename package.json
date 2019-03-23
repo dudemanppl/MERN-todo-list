@@ -1,0 +1,27 @@
+{
+  "name": "MERN-todo-list",
+  "version": "1.0.0",
+  "description": "Simple full stack todo list using the MERN stack (Mongo, Express, React, Node)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudemanppl/MERN-todo-list.git"
+  },
+  "keywords": [],
+  "author": "Tommy Liao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudemanppl/MERN-todo-list/issues"
+  },
+  "homepage": "https://github.com/dudemanppl/MERN-todo-list#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.5"
+  }
+}
