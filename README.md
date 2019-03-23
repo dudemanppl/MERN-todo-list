@@ -9,4 +9,4 @@ Note: If at any time you need to fast forward to the next step, type the command
 
 ## Step 1 Server
 a. Create a folder named "server". Create a basic Express server listening on port 3000 in your server folder in an "index.js" file.
-b. Create two files, named "controller.js" and "router.js". Fill out basic functionality for all CRUD routes, sending back a response with the name of each request method.
+b. Route all requests to the "/api" endpoint through a "router.js" file, then handle your requests in a "controller.js" file. Fill out basic functionality for all CRUD routes, sending back a response with the name of each request method.
