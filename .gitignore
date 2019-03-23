@@ -63,5 +63,3 @@ typings/
 client/dist/bundle.js
 
 client/
-
-server/
