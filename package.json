@@ -4,7 +4,8 @@
   "description": "Simple full stack todo list using the MERN stack (Mongo, Express, React, Node)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "react-dev": "webpack -w",
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,16 @@
     "express": "^4.16.4",
     "mongodb": "^3.2.2",
     "nodemon": "^1.18.10",
-    "react": "^16.8.5"
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6"
   }
 }
